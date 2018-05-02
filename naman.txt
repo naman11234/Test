@@ -1,0 +1,117 @@
+Q1. Imp. features of Java 8(jdk).
+
+Q2. What is jvm? IS it platform independant?
+Ans. jvm is Java Virtual Machine
+
+Q3. Diff. b/w jdk, jre and jvm?
+Ans. jdk- Java Development Kit
+     jre- Jave Runtime Engine
+     jvm- Java Virtual Machine.
+
+Q4. Which class is superclass of all the classes?
+
+Q5. Why java doesn't support multiple inheritance?
+Ans. Because if we refer to the base class using super or want to use a function of the base class using
+     a derived class the class would not know which of the base classes to call.
+
+Q6. Why Java is not pure object oriented language?
+Q7. Diff. b/w overloading and overwriting. Can we overload main method?
+Ans. Overloading is using the functions of a base class in derived classes. 
+     Overriding is changin the functionality of the function in the derived class.
+
+Q8. Diff. access modifiers. Explain with program example.
+
+Q9. Diff. b/w access specifier and access modifier.
+Ans. Access specifiers tell which  variables and functions of a class can be accessed
+     directly or indirectly(private, public, protected).
+
+Q10. D/b final and static keyword.
+Ans. By using the final keyword we set the value of the variable fixed for the whole program.
+The static keyword sets the value of the integer unchangable for only one iteration in which 
+the variable is.
+
+Q11. Can we declare a class as static?
+
+Q12. D/b abstract classes and interfaces?
+Ans. We cannot create objects of abstract classes. Its variables and functions can be used in
+     other classes multiple times. Interfaces are used to initialise values of variables for use 
+     by different classes.
+
+Q13. Wrapper classes
+
+Q14. Anonymous inner class.
+
+Q15. Ternary operator. Example.
+
+Q16. Super, this, garbage collection, pass by value, pass by reference.
+Ans. Super- It refers to the extended class.
+     This- It refers to the object used in the previous statement.
+     Garbage Collection- The elements which are not in use in the program or the space
+     in memory not in use.
+     Pass by Value- Passing the value of a variable in a function.
+     Pass by Reference- Passing the address of the value of variable in the function.
+
+Write a program to print duplicate elements
+
+Check whether a string is palindrome or not
+
+Print a Triangle
+
+Print series of prime nos. bw 1 to 100.
+Ans.
+class Codechef
+
+{
+int i,n;
+
+    
+for(n=1;n<=100;n++)
+    
+{
+        
+int flag=0;
+        
+i=2;
+        
+while(i<=n/2)
+        
+{
+            
+if(n%i==0)
+            
+{
+            
+flag=1;
+           
+ break;
+            
+}
+           
+ i++;
+        
+}
+        
+if(flag==0)
+        
+{
+            
+System.out.println(+n+" ");
+       
+ }
+        
+    
+}
+
+}
+	
+public static void main (String[] args) throws java.lang.Exception
+	
+{
+		
+Codechef obj=new Codechef();
+		
+obj.Prime();
+	
+}
+
+}
